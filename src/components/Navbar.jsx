@@ -3,9 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 function Navbar() {
   const navLinkClass = ({ isActive }) =>
     `transition-colors duration-300 ${
-      isActive
-        ? "text-green-300"
-        : "text-white hover:text-green-300"
+      isActive ? "text-green-300" : "text-white hover:text-green-300"
     }`;
 
   return (
@@ -13,10 +11,7 @@ function Navbar() {
       <nav className="bg-blue-900 py-4">
         <div className="w-[90%] max-w-[1200px] mx-auto flex flex-col md:flex-row items-center justify-between">
           <div className="mb-4 md:mb-0">
-            <Link
-              to="/"
-              className="text-white text-2xl font-bold no-underline"
-            >
+            <Link to="/" className="text-white text-2xl font-bold no-underline">
               Shemiring Restaurant
             </Link>
           </div>

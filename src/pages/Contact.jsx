@@ -45,19 +45,13 @@ function Contact() {
               <strong>Phone:</strong> (+63) 953-894-1624
             </p>
             <p>
-              <strong>Email:</strong> abdlhsm27@gmail.com. 
+              <strong>Email:</strong> abdlhsm27@gmail.com.
             </p>
           </div>
 
-          <form
-            onSubmit={handleSubmit}
-            className="max-w-[600px] mx-auto"
-          >
+          <form onSubmit={handleSubmit} className="max-w-[600px] mx-auto">
             <div className="mb-4">
-              <label
-                htmlFor="name"
-                className="block font-bold mb-2"
-              >
+              <label htmlFor="name" className="block font-bold mb-2">
                 Name:
               </label>
               <input
@@ -73,10 +67,7 @@ function Contact() {
             </div>
 
             <div className="mb-4">
-              <label
-                htmlFor="email"
-                className="block font-bold mb-2"
-              >
+              <label htmlFor="email" className="block font-bold mb-2">
                 Email:
               </label>
               <input
@@ -92,10 +83,7 @@ function Contact() {
             </div>
 
             <div className="mb-4">
-              <label
-                htmlFor="message"
-                className="block font-bold mb-2"
-              >
+              <label htmlFor="message" className="block font-bold mb-2">
                 Message:
               </label>
               <textarea

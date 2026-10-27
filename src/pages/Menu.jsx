@@ -6,7 +6,8 @@ const menuSections = [
         name: "Indian Thali / Feast Spread",
         price: 180,
         image: "/img/background.jpg",
-        description: "An Indian thali platter featuring fried bread (poori/bhatura), vegetable curries, dal, spiced rice, samosas with dipping sauce, and side condiments.",
+        description:
+          "An Indian thali platter featuring fried bread (poori/bhatura), vegetable curries, dal, spiced rice, samosas with dipping sauce, and side condiments.",
       },
       {
         name: "Classic Cheeseburger",
@@ -56,7 +57,8 @@ const menuSections = [
         name: "Lumpia Shanghai",
         price: 30,
         image: "/img/lumpia.jpg",
-        description: "Deep-fried golden crispy spring rolls filled with minced meat, served with sweet chili dipping sauce.",
+        description:
+          "Deep-fried golden crispy spring rolls filled with minced meat, served with sweet chili dipping sauce.",
       },
     ],
   },

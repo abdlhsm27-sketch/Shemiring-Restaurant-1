@@ -1,7 +1,7 @@
 function Home() {
   const testimonials = [
     {
-      message:"The best dining experience I've ever had!",
+      message: "The best dining experience I've ever had!",
       name: "- Gordon Ramsey",
     },
     {
@@ -40,7 +40,8 @@ function Home() {
           </h1>
 
           <p className="text-lg">
-            Experience the best cuisine in the city. Enjoy our signature dishes and cozy ambiance.
+            Experience the best cuisine in the city. Enjoy our signature dishes
+            and cozy ambiance.
           </p>
         </div>
       </section>
@@ -57,9 +58,7 @@ function Home() {
                 key={index}
                 className="p-4 bg-gray-200 border-4 border-blue-300 rounded-2xl shadow-sm"
               >
-                <p className="italic">
-                  "{testimonial.message}"
-                </p>
+                <p className="italic">"{testimonial.message}"</p>
 
                 <span className="block mt-2 font-bold text-right">
                   {testimonial.name}
